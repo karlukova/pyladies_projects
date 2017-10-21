@@ -1,12 +1,6 @@
 kriz='X'
-print(kriz, end='\n')
-
-for n in range(0,2):
-    print(kriz, end=' ')
-print(end='\n')
-for o in range(0,3):
-    print(kriz, end=' ')
-print(end='\n')
-for k in range(0,4):
-    print(kriz, end=' ')
-print(end='\n')
+pocet_radku=int(input('Zadej pocet radku:'))
+for n in range(0,pocet_radku):
+    for k in range(0, pocet_radku):
+        print(kriz, end=' ')
+        print(end='\n')
